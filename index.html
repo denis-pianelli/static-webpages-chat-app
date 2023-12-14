@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <div class="background-container-purple"></div>
+    <div class="background-container-grey"></div>
+    <main class="main">
+      <section class="phone-screen">
+        <div class="phone-screen__notch"></div>
+        <div class="phone-screen__header">
+          <div class="phone-screen__header-container">
+            <img
+              class="phone-screen__header-chevron"
+              src="./images/right-thin-chevron-svgrepo-com.png"
+              alt="icon chevron"
+            />
+            <img
+              src="./images/avatar.jpg"
+              alt="Samuel Green's pictures"
+              class="phone-screen__header-image"
+            />
+            <div class="phone-screen__header-recipient">
+              <strong class="phone-screen__header-recipient-name"
+                >Samuel Green</strong
+              >
+              <em class="phone-screen__header-recipient-status"
+                >Available to Walk
+              </em>
+            </div>
+          </div>
+          <div>
+            <p class="phone-screen__header-dots">...</p>
+          </div>
+        </div>
+        <div class="phone-screen__discussion">
+          <p
+            class="phone-screen__discussion-message phone-screen__discussion-message-received"
+          >
+            That sounds great. I’d be happy to discuss more.
+          </p>
+          <p
+            class="phone-screen__discussion-message phone-screen__discussion-message-received"
+          >
+            Could you send over some pictures of your dog, please?
+          </p>
+          <div class="phone-screen__discussion-image-container">
+            <img
+              class="phone-screen__discussion-image"
+              src="./images/dog-image-1.jpg"
+              alt="Picture of a dog"
+            />
+            <img
+              class="phone-screen__discussion-image"
+              src="./images/dog-image-2.jpg"
+              alt="Picture of a dog"
+            />
+            <img
+              class="phone-screen__discussion-image"
+              src="./images/dog-image-3.jpg"
+              alt="Picture of a dog"
+            />
+          </div>
+          <p
+            class="phone-screen__discussion-message phone-screen__discussion-message-sent"
+          >
+            Here are a few pictures. She’s a happy girl!
+          </p>
+          <p
+            class="phone-screen__discussion-message phone-screen__discussion-message-sent"
+          >
+            Can you make it?
+          </p>
+          <p
+            class="phone-screen__discussion-message phone-screen__discussion-message-received"
+          >
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </p>
+          <div class="phone-screen__discussion-input">
+            <label> <input type="radio" name="walk" />30 minute walk </label>
+            <p class="phone-screen__discussion-input-text">$29</p>
+          </div>
+          <div class="phone-screen__discussion-input">
+            <label> <input type="radio" name="walk" />1 hour walk </label>
+            <p class="phone-screen__discussion-input-text">$49</p>
+          </div>
+          <div class="phone-screen__discussion-type-container">
+            <input
+              type="text"
+              name="message"
+              class="phone-screen__discussion-type"
+              placeholder="Type a message…"
+            />
+            <button class="phone-screen__discussion-button">
+              <img src="./images/icons8-chevron-right-50.png" alt="chevron right icon">
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="app-description">
+        <h1 class="app-description__title">Simple booking</h1>
+          <p class="app-description__text">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the walk
+            has been completed you can rate your walker and book again all through
+            the chat.
+          </p>
+      </section>
+    </main>
+  </body>
+</html>
